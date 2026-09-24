@@ -1,19 +1,249 @@
-.center-all {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+html {
+   margin: 0;
+   padding: 0;
 }
 
-#content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+body {
+   display: flex;
+   flex-direction: column;
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
 }
 
-.icon {
-    width: 100px;
-    height: 100px;
+ul {
+   list-style-type: none;
+}
+
+.links {
+   color: #f9faf8;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+.hero{
+   background-color: #1f2937;
+}
+
+.hero2 {
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 100px;
+}
+
+.hero3 {
+   display: flex;
+   background-color: #E5E7EB;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero4 {
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 100px 100px;
+}
+
+.first-button {
+   align-self: flex-start;
+   margin-top: 10px;
+   font-family: Roboto, sans-serif;
+   border: none;
+   border-radius: 8px;
+   background: #3882F6;
+   padding: 10px 40px;
+   color: #f9faf8;
+   font-size: 15px;
+}
+
+.second-button {
+   display: flex;
+   margin-top: 10px;
+   font-family: Roboto, sans-serif;
+   border-style: solid;
+   border-color: white;
+   border-radius: 8px;
+   background: #3882F6;
+   padding: 10px 40px;
+   color: #f9faf8;
+   font-size: 15px;
+   
+}
+
+.first-title {
+   display: flex;
+   margin: 0;
+   font-weight: 900;
+   font-size: 48px;
+   color: #f9faf8;
+}
+
+.second-title {
+   display: flex;
+   font-weight: 900;
+   font-size: 48px;
+   color: #1f2937;
+   justify-content: center;
+}
+
+.third-title {
+   display: flex;
+   margin-bottom: 0;
+   color: white;
+}
+
+.first-text {
+   display: flex;
+   margin: 0;
+   width: 400px;
+   font-size: 18px;
+   color: #E5E7EB;
+}
+
+.third-text {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.third-content {
+   margin-top: 0;
+   font-size: 20px;
+   color: white;
+}
+
+.header {
+   display: flex;
+   justify-content: center;
+
+   
+}
+
+.header-text {
+   display: flex;
+   color: #f9faf8;
+   margin-right: 20%;
+}
+
+.sidebar {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+.main-text {
+   display: flex;
+   flex-direction: column;
+   flex: 0;
+   color: #f9faf8;
+}
+
+
+.main-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 100px;
+}
+
+
+
+.placeholder {
+   display: flex;
+   justify-content: center;
+   padding: 100px 50px;
+   background-color: #6d747d;
+   height: 300px;
+   color: #f9faf8;
+}
+
+
+.card-container {
+   display: flex;
+   justify-content: center;
+   gap: 52px;
+
+}
+
+
+.cardshape {
+   border-radius: 25px;
+   border: solid 5px #3882F6;
+   width: 200px;
+   height: 200px;
+   background-color: white;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   flex-basis: 200px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.cardtext {
+   width: 185px;
+   font-size: 20px;
+   color: #6d747d;
+}
+
+.bigquote {
+   display: flex;
+   flex-direction: column;
+   max-width: 800px;
+   padding: 100px;
+}
+
+.quote {
+   font-size: 36px;
+   font-style: italic;
+   font-weight: 300;
+   color: #1f2937;
+   margin-bottom: 5px;
+}
+
+.sign {
+   display: flex;
+   font-size: 30px;
+   align-self: flex-end;
+   font-weight: bold;
+   margin: 0;
+   color: #1f2937;
+}
+
+.signup {
+   display: flex;
+   border-radius: 8px;
+   background-color: #3882F6;
+   flex: 1;
+   max-width: 1300px;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 100px;
+   max-width: 1100px;
+   padding: 40px 50px;
+   
+}
+
+.footer {
+       background-color: #1f2937;
+       flex-direction: column;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 50px 50px;
+   }
+
+.footer-text {
+   color: white;
+   font-size: 20px;
 }
