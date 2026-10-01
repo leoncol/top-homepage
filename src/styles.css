@@ -40,10 +40,11 @@ html {
  
  
  .hero{
+   padding: 5rem;
    background-color: #1f2937;
    display: flex;
    justify-content: center;
-   align-items: flex-end;
+   align-items: center;
    padding-right: 5rem;
    padding-bottom: 3rem;
  }
@@ -59,7 +60,7 @@ html {
    background-color: white;
    display: flex;
    flex-direction: column;
-   padding-bottom: 100px;
+   padding: 4rem;
  }
  
  
@@ -244,11 +245,12 @@ html {
  
  
  .card-container {
-   display: flex;
-   justify-content: center;
-   gap: 52px;
- 
- 
+  
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  padding: 3rem;
  }
  
 
@@ -267,7 +269,8 @@ html {
  .card {
    display: flex;
    flex-direction: column;
-   flex-basis: 200px;
+   border: solid 5px #3882F6;
+   max-width: 1500px;
    text-align: center;
    justify-content: center;
    align-items: center;
