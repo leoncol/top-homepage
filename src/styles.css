@@ -7,7 +7,7 @@ html {
  
  body {
    display: grid;
-   grid-template-rows: 100vh 110vh 80vh;
+   grid-template-rows: 100vh 157vh 80vh;
    font-family: 'Roboto', sans-serif;
    margin: 0;
    padding: 0;
@@ -40,13 +40,11 @@ html {
  
  
  .hero{
-   padding: 5rem;
    background-color: #1f2937;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding-right: 5rem;
-   padding-bottom: 3rem;
+   display: grid;
+   grid-template-columns: 0.12fr 2fr 0.12fr;
+   grid-template-rows: 1fr;
+   padding-bottom: 2rem;
  }
  
  
@@ -60,7 +58,9 @@ html {
    background-color: white;
    display: flex;
    flex-direction: column;
-   padding: 4rem;
+   justify-content: center;
+   align-items: center;
+   
  }
  
  
@@ -107,6 +107,12 @@ html {
    font-size: 15px;
   
  }
+
+ .title-wrapper{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15rem;
+ }
  
  
  .first-title {
@@ -119,11 +125,10 @@ html {
  
  
  .second-title {
-   display: flex;
-   font-weight: 900;
-   font-size: 48px;
-   color: #1f2937;
-   justify-content: center;
+   
+  font-size: 4rem;
+  position: relative;
+  top: 2rem;
  }
  
  
@@ -194,14 +199,17 @@ html {
  
  
  .main-content {
-   max-width: 100%;
+   
+   grid-column: 2/3;
    display: flex;
    align-items: center;
+   
  }
- 
+
+
  
  .loremipsum {
-   font-size: 2.5rem;
+   font-size: 2rem;
    max-width: 90%;
    line-height: 1.5;
    
@@ -215,9 +223,9 @@ html {
    display: grid;
    grid-template-rows: 2fr 1fr 1fr;
    color: #f9faf8;
-   max-height: 800px;
+   max-height: 750px;
    overflow-y:auto;
-   max-width: 1618px;
+   max-width: 1000px;
    
  }
  
@@ -236,8 +244,8 @@ html {
  
  .profilepicture {
    height: auto;
-   max-width: 100%;
-   flex-basis: 5000px;
+   
+   flex-basis: 3500px;
    
  }
  
@@ -249,8 +257,8 @@ html {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 3rem;
-  padding: 3rem;
+  gap: 5rem;
+  
  }
  
 
@@ -270,10 +278,12 @@ html {
    display: flex;
    flex-direction: column;
    border: solid 5px #3882F6;
-   max-width: 1500px;
+   min-width: 600px;
+   min-height: 700px;
    text-align: center;
    justify-content: center;
-   align-items: center;
+   align-items: center;;
+   
  }
  
  
