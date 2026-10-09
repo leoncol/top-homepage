@@ -76,7 +76,35 @@ html {
    justify-content: center;
    align-items: center;
  }
+
+ .contactmetitle {
+  font-size: 5rem;
+ }
+
+ .contactme {
+  display: flex;
+  flex-basis: 1500px;
+  gap: 5rem;
+ }
+
+ .icon {
+  max-width: 1.5rem;
+ }
  
+ .contactsection {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .phonesection {
+  display: flex;
+  gap: 0.5rem;
+ }
+
+ .emailsection {
+  display: flex;
+  gap: 0.5rem;
+ }
  
  .hero4 {
    background-color: white;
@@ -249,6 +277,10 @@ html {
    padding-top: 5rem;
  }
  
+ .contactsection-icon-container {
+  display: flex;
+  
+ }
  
  
  
@@ -258,6 +290,12 @@ html {
    
  }
  
+ .profilepicture2 {
+  height: auto;
+  flex-basis: 800px;
+  
+}
+
  
  
  
