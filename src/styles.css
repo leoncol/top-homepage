@@ -7,11 +7,12 @@ html {
  
  body {
    display: grid;
-   grid-template-rows: repeat(auto-fit,minmax(320px, 1fr));
+   grid-template-rows: minmax(320px, 1fr)
+                       minmax(320px, 2fr)
+                       minmax(320px, 0.9fr);
    font-family: 'Roboto', sans-serif;
    margin: 0;
    padding: 0;
-   min-height: 100vh;
   
  }
  
@@ -44,6 +45,7 @@ html {
    display: flex;
    align-items: center;
    justify-content: center;
+   padding: 5rem;
    
    
  }
@@ -374,23 +376,30 @@ html {
    color: #6d747d;
  }
  
- /* @media (min-width: 1920px){
+ 
 
- }
+ @media (min-width: 320px) and (max-width: 375px){
+  
+  
+  
 
- @media (max-width: 320px){
-  body {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-
-  .main-content{
-    display: flex;
+  .main-content, .contactme{
     flex-direction: column;
     
   }
 
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
   
- } */
+
+
+  .placeholder {
+    max-width: 70%;
+  }
+
+  
+  
+ } 
  
