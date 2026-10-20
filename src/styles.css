@@ -7,7 +7,7 @@ html {
  
  body {
    display: grid;
-   grid-template-rows: 100vh 157vh 80vh;
+   grid-template-rows: repeat(auto-fit,minmax(320px, 1fr));
    font-family: 'Roboto', sans-serif;
    margin: 0;
    padding: 0;
@@ -320,6 +320,7 @@ html {
  .profilepicture {
    height: auto;
    flex-basis: 1500px;
+   object-fit: contain;
    
  }
  
@@ -373,4 +374,23 @@ html {
    color: #6d747d;
  }
  
+ /* @media (min-width: 1920px){
+
+ }
+
+ @media (max-width: 320px){
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .main-content{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  
+ } */
  
