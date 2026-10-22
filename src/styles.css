@@ -7,10 +7,8 @@ html {
  
  
  body {
-   display: grid;
-   grid-template-rows: minmax(320px, 1.4fr)
-                       minmax(320px, 1.77fr)
-                       minmax(320px, 1.23fr);
+   display: flex;
+   flex-direction: column;
    font-family: 'Roboto', sans-serif;
    margin: 0;
    padding: 0;
@@ -46,6 +44,7 @@ html {
    display: flex;
    align-items: center;
    justify-content: center;
+   min-height: 100vh;
    
    
  }
@@ -60,9 +59,10 @@ html {
  .hero2 {
    background-color: white;
    display: flex;
-   justify-content: center;
    align-items: center;
    flex-direction: column;
+   min-height: 142vh;
+   
    
    
    
@@ -71,9 +71,11 @@ html {
 
  .hero3 {
    display: flex;
-   background-color: #E5E7EB;
-   justify-content: center;
-   align-items: center;
+   background-color: #d80cce;
+   align-items: flex-start;
+   padding-top: 3rem;
+   min-height: 90vh;
+   min-width: 100%;
    
  }
 
@@ -93,8 +95,11 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 5rem;
+  min-width: 100%;
+  
  }
+
+
 
  .icon {
   max-width: 3rem;
@@ -155,8 +160,9 @@ html {
 
  .title-wrapper{
   width: 100%;
-  max-width: 1990px;
+  max-width: 2290px;
   display: flex;
+  transform: translateY(-10px);
   
  }
  
