@@ -59,18 +59,16 @@ html {
  
  .hero2 {
    background-color: white;
-   
-   
-   
- }
- 
- .hero2main{
-  display: flex;
-   flex-direction: column;
+   display: flex;
    justify-content: center;
    align-items: center;
+   flex-direction: column;
+   
+   
+   
  }
  
+
  .hero3 {
    display: flex;
    background-color: #E5E7EB;
@@ -122,13 +120,6 @@ html {
   align-items: center;
  }
  
- .hero4 {
-   background-color: white;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 100px 100px;
- }
  
  
  .first-button {
@@ -163,7 +154,9 @@ html {
  }
 
  .title-wrapper{
-  max-width: fit-content;;
+  width: 100%;
+  max-width: 1990px;
+  display: flex;
   
  }
  
@@ -339,6 +332,8 @@ html {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5rem;
+ 
+  
   
  }
  
@@ -359,8 +354,10 @@ html {
    display: flex;
    flex-direction: column;
    border: solid 5px #3882F6;
-   max-width: 600px;
-   min-height: 600px;
+   width: 700px;
+   max-width: 900px;
+   height: 720px;
+   max-height: 720px;
    text-align: center;
    justify-content: center;
    align-items: center;;
