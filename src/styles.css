@@ -61,7 +61,7 @@ html {
    display: flex;
    align-items: center;
    flex-direction: column;
-   min-height: 142vh;
+   min-height: 160vh;
    
    
    
@@ -96,6 +96,7 @@ html {
   justify-content: space-around;
   align-items: center;
   min-width: 100%;
+  
   
  }
 
@@ -393,8 +394,9 @@ html {
   }
 
   .main-content {
-    max-width: 100%;
+    justify-content: flex-start;
   }
+
 
   .card-container {
     grid-template-columns: 1fr;
@@ -407,6 +409,13 @@ html {
     max-height: 700px;
   }
 
+   
+  .profilepicture2 {
+    max-width: 400px;
+    max-height: 700px;
+  }
+
+
   /* .profilepicture2 {
     
   }  */
@@ -417,14 +426,14 @@ html {
   }
 
   .hero {
-    max-width: 520px;
+    min-width: 447px;
   }
+  
 
   .card {
-    min-width: 300px;
-    min-height: 400px;
+    max-width: 320px;
   }
- 
+
   
   
  } 
