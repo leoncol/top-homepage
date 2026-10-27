@@ -407,9 +407,6 @@ html {
     
   }
 
-  
-
-
   .card-container {
     grid-template-columns: 1fr;
     max-width: 520px;
@@ -424,8 +421,9 @@ html {
 
    
   .profilepicture2 {
-    max-width: 300px;
+    max-width: 100%;
     max-height: 500px;
+
   }
 
    
@@ -457,12 +455,16 @@ html {
 
 
   .placeholder2 {
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     overflow-y: auto;
    }
 
-   .touch, .address,.phonenumber, .email {
+   .touch {
     font-size: 1.5rem;
+   }
+
+   .address,.phonenumber, .email {
+    font-size: 1.3rem;
    }
    
    .aboutme{
@@ -495,6 +497,18 @@ html {
     font-size: 2.5rem;
   }
 
+  .hero3icon, .hero3icon{
+    color: black;
+    font-size: 3.5rem;
+  }
+
+  .hero3 {
+    padding-top: 0rem;
+    
+    
+  }
+ 
+
   .title-wrapper{
     width: 100%;
     max-width: 500px;
@@ -506,11 +520,14 @@ html {
   .hero2 {
     min-height: 530vh;
   } 
+ 
 
   .placeholder2 {
-    padding: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     justify-content: center;
   }
+  
 
   .contactmetext {
     justify-content: center;
@@ -520,6 +537,11 @@ html {
     font-size: 3rem;
     align-self: center;
   }
+
+  .contactsection-icon-container {
+  justify-content: center;    
+    
+   }
   
  } 
  
