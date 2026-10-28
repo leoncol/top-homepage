@@ -391,7 +391,7 @@ html {
   max-width: 100%;
  }
 
- @media (min-width: 320px) and (max-width: 375px){
+ @media (min-width: 320px) and (max-width: 767px){
   
   
   
@@ -407,7 +407,7 @@ html {
     padding-left: 1.6rem;
     padding-right: 1.6rem;
     padding-top: 2rem;
-    gap: 1rem;
+    gap: 2rem;
     
   }
 
@@ -471,18 +471,24 @@ html {
     font-size: 1.5rem;
    }
 
-   .address,.phonenumber, .email {
+   .address {
     font-size: 1.3rem;
+   }
+
+   .phonenumber, .email {
+    font-size: 1.2rem;
    }
    
    .aboutme{
     font-size: 3rem;
     justify-self: center;
+    margin: 0;
   }
 
   .loremipsum {
     font-size: 1.5rem;
     max-width: 100%;
+    margin: 0;
   }
   
   .placeholder {
@@ -497,7 +503,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 0rem;
+    padding: 1rem;
   }
   
   .devicon-linkedin-plain, .devicon-github-original{
@@ -526,9 +532,8 @@ html {
    }
 
   .hero2 {
-    min-height: 315vh;
     max-width: 100%;
-
+    padding-bottom: 11rem;
   } 
  
 
