@@ -463,7 +463,7 @@ html {
 
 
   .placeholder2 {
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 0.8fr;
     overflow-y: auto;
    }
 
@@ -479,10 +479,22 @@ html {
     font-size: 1.2rem;
    }
    
+   .phonenumber {
+    margin-bottom: 0;
+   }
+
+   .email {
+    margin-top: 0;
+   }
+
    .aboutme{
     font-size: 3rem;
     justify-self: center;
     margin: 0;
+  }
+
+  .second-title {
+    font-size: 3rem;
   }
 
   .loremipsum {
@@ -534,6 +546,7 @@ html {
   .hero2 {
     max-width: 100%;
     padding-bottom: 11rem;
+    padding-top: 5rem;
   } 
  
 
@@ -557,6 +570,72 @@ html {
   justify-content: center;    
     
    }
+
+   .mobile-icon {
+    display: none;
+  }
+
+  .contactinfo {
+    gap: 0rem;
+   }
+  
+  
+  
+ } 
+ 
+ 
+ @media (min-width: 768px) and (max-width: 1024px){
+  
+
+  .placeholder {
+    max-width: 90%;
+    max-height: 500px;
+  }
+  
+  
+  .profilepicture {
+    max-width: 70%;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-100px) translateY(-200px);
+    
+  }
+
+  .main-content {
+    position: relative;
+  }
+
+
+
+  
+
+  .hero {
+    padding: 1rem;
+  }
+
+  
+
+  .card {
+    width: 300px;
+    height: 300px;
+  }
+
+  .card-container {
+
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 2rem;
+  }
+  
+  .title-wrapper {
+    max-width: 82%;
+    padding-bottom: 0.5rem;
+  }
+
+  .aboutme, .second-title {
+    font-size: 3rem;
+  }
+
+  
   
  } 
  
