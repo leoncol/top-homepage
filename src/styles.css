@@ -610,36 +610,46 @@ html {
 
   .placeholder {
     max-width: 80%;
-    height: 800px;
-    max-height: 90%;
+    height: 80%;
     transform: translateY(70px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 4rem;
+    
   }
   
   .loremipsum {
-    font-size: 1.4rem;
-    transform: translateX(80px) translateY(-10px);
+    font-size: 1.9rem;
     max-width: 120%;
+    margin-top: 0;
   
   }
 
   .placeholder-icon-container {
     max-width: 50%;
+    padding-right: 11rem;
+    padding-bottom: 0rem;
   }
    
  .devicon-linkedin-plain, .devicon-github-original{
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
   .aboutme{
-    position: fixed;
-    transform: translateX(500px) translateY(-50px);
-    font-size: 2rem;
-    max-width: 35%;
+    font-size: 4rem;
+    max-width: 70%;
+    padding-left: 7rem;
+    margin: 0;
   }
 
   .textcontainer {
-    transform: translateY(100px);
-    max-width: 80%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
   }
 
   .contact-icons {
@@ -647,24 +657,37 @@ html {
   }
   
   .profilepicture {
-    max-width: 60%;
+    max-width: 50%;
     position: absolute;
     z-index: 1;
-    transform: translateX(-100px) translateY(-200px);
+    transform: translateX(-200px) translateY(-180px);
+    
+  }
+
+  .tablet-layout-box {
+    width: 380px;
+    height: 246px;
+    margin-right: auto;
+    float: right;
     
   }
 
   .main-content {
     position: relative;
+    height: 100%;
+    padding-bottom: 2rem;
+   
+    
+    
   }
 
 
   .name {
     position: absolute;
     z-index: 1;
-    font-size: 3.5rem;
+    font-size: 5rem;
     color: #000000;
-    transform: translateX(190px) translateY(-370px);
+    transform: translateX(200px) translateY(-370px);
     text-shadow: -5px -5px 0 #ffffff;
     max-width: 500px;
   
@@ -672,7 +695,13 @@ html {
   
 
   .hero {
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0rem;
+    height: 1000px;
+    align-items: flex-start;
+    min-height: 0vh;
+    max-height: 150vh;
   }
 
   
