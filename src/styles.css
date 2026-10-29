@@ -52,6 +52,16 @@ html {
    
    
  }
+
+ .name {
+  position: absolute;
+  z-index: 1;
+  transform: translateX(-600px) translateY(440px);
+  font-size: 9rem;
+  color: #000000;
+  text-shadow: -5px -5px 0 #ffffff;
+
+ }
  
  
  .contact-icons {
@@ -426,6 +436,17 @@ html {
     object-fit: fill;
   }
 
+  .name {
+    position: absolute;
+    z-index: 1;
+    font-size: 4rem;
+    color: #000000;
+    transform: translateX(-120px) translateY(-200px);
+    text-shadow: -5px -5px 0 #ffffff;
+    max-width: 20px;
+  
+   }
+
    
   .profilepicture2 {
     max-width: 100%;
@@ -588,13 +609,45 @@ html {
   
 
   .placeholder {
-    max-width: 90%;
-    max-height: 500px;
+    max-width: 80%;
+    height: 800px;
+    max-height: 90%;
+    transform: translateY(70px);
   }
   
+  .loremipsum {
+    font-size: 1.4rem;
+    transform: translateX(80px) translateY(-10px);
+    max-width: 120%;
+  
+  }
+
+  .placeholder-icon-container {
+    max-width: 50%;
+  }
+   
+ .devicon-linkedin-plain, .devicon-github-original{
+  font-size: 2.5rem;
+}
+
+  .aboutme{
+    position: fixed;
+    transform: translateX(500px) translateY(-50px);
+    font-size: 2rem;
+    max-width: 35%;
+  }
+
+  .textcontainer {
+    transform: translateY(100px);
+    max-width: 80%;
+  }
+
+  .contact-icons {
+    transform: translateX(120px);
+  }
   
   .profilepicture {
-    max-width: 70%;
+    max-width: 60%;
     position: absolute;
     z-index: 1;
     transform: translateX(-100px) translateY(-200px);
@@ -606,7 +659,16 @@ html {
   }
 
 
-
+  .name {
+    position: absolute;
+    z-index: 1;
+    font-size: 3.5rem;
+    color: #000000;
+    transform: translateX(190px) translateY(-370px);
+    text-shadow: -5px -5px 0 #ffffff;
+    max-width: 500px;
+  
+   }
   
 
   .hero {
@@ -631,7 +693,7 @@ html {
     padding-bottom: 0.5rem;
   }
 
-  .aboutme, .second-title {
+  .second-title {
     font-size: 3rem;
   }
 
