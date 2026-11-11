@@ -664,10 +664,10 @@ html {
     max-width: 50%;
     object-fit: fill;
     max-height: 100%;
-    height: 600px;
+    height: 60%;
     position: absolute;
     z-index: 1;
-    transform: translateX(-200px) translateY(-180px);
+    transform: translateX(-40.5%) translateY(-30%);
     
   }
 
@@ -693,9 +693,10 @@ html {
   .name {
     position: absolute;
     z-index: 1;
-    font-size: 5rem;
+    font-size: calc(7.73vw + 1px);
     color: #000000;
-    transform: translateX(200px) translateY(-370px);
+    /* transform: translateX(19.25vw) translateY(-27.4vh); */
+    transform: translateX(clamp(2rem,19.2vw,17rem)) translateY(clamp(-39rem,-36.6vw,-20rem));
     text-shadow: -5px -5px 0 #ffffff;
     max-width: 500px;
   
