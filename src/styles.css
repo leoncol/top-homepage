@@ -724,11 +724,11 @@ html {
   .name {
     position: absolute;
     z-index: 1;
-    font-size: calc(7.73vw + 1px);
+    font-size: 3.8rem;
     color: #000000;
     /* transform: translateX(19.25vw) translateY(-27.4vh); */
     /* transform: translateX(clamp(2rem,19.2vw,17rem)) translateY(clamp(2rem,5vh,31rem)); */
-    transform: translateX(clamp(2rem,19.2vw,17rem)) translateY(-23.5rem);
+    transform: translateX(9.3rem) translateY(-23rem);
     text-shadow: -5px -5px 0 #ffffff;
     max-width: 500px;
   
@@ -745,6 +745,42 @@ html {
     padding: 1rem;
     
   }
+
+  .loremipsum {
+    font-size: 1.6rem;
+  }
+
+   .tablet-layout-box {
+    width: 270px;
+    height: 246px;
+    float: left;
+    shape-outside: rect(50px 150px 200px 50px round 20%);
+    margin-top: 3rem;
+    margin-right: 4rem;
+    
+  }
+
+  .aboutme{
+    font-size: 2.3rem;
+    max-width: 37%;
+    width: 300px;
+    margin: 0;
+    transform: translate(360px);
+  }
+
+  .placeholder {
+    max-width: 80%;
+    height: 90%;
+    transform: translateY(80px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 1rem;
+    
+  }
+
+ 
   
  }
 
@@ -774,5 +810,51 @@ html {
     
   }
   
+ }
+ 
+ @media (height: 1180px){
+   .tablet-layout-box {
+    width: 290px;
+    height: 246px;
+    float: left;
+    shape-outside: rect(50px 150px 200px 50px round 20%);
+    margin-top: 3rem;
+    margin-right: 4rem;
+    
+  }
+
+  .aboutme{
+    font-size: 2.5rem;
+    max-width: 40%;
+    width: 300px;
+    margin: 0;
+    transform: translate(370px);
+  }
+
+
+  .placeholder {
+    max-width: 80%;
+    height: 90%;
+    transform: translateY(65px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 1rem;
+    
+  }
+
+  .name {
+    position: absolute;
+    z-index: 1;
+    font-size: 4rem;
+    color: #000000;
+    /* transform: translateX(19.25vw) translateY(-27.4vh); */
+    /* transform: translateX(clamp(2rem,19.2vw,17rem)) translateY(clamp(2rem,5vh,31rem)); */
+    transform: translateX(9.9rem) translateY(-24rem);
+    text-shadow: -5px -5px 0 #ffffff;
+    max-width: 500px;
+  
+   }
  }
  
