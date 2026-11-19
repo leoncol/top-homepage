@@ -692,17 +692,30 @@ html {
     max-height: 150vh;
   }
 
+  .hero2 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 0vh;
+    padding-bottom: 12rem;
+    
+    
+    
+  }
+  
   
 
   .card {
-    width: 300px;
-    height: 300px;
+    max-width: 350px;
+    max-height: 350px;
   }
 
   .card-container {
 
     grid-template-columns: 1fr 1fr;
     gap: 3rem 2rem;
+    max-width: 100%;
   }
   
   .title-wrapper {
@@ -809,6 +822,12 @@ html {
     padding: 1rem;
     
   }
+
+  .card-container {
+
+    gap: 3rem 5rem;
+    
+  }
   
  }
  
@@ -856,5 +875,7 @@ html {
     max-width: 500px;
   
    }
+
+  
  }
  
