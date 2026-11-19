@@ -707,8 +707,8 @@ html {
   
 
   .card {
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 330px;
+    max-height: 330px;
   }
 
   .card-container {
@@ -793,6 +793,11 @@ html {
     
   }
 
+  .title-wrapper{
+    transform: translateX(-30px);
+  }
+  
+
  
   
  }
@@ -828,6 +833,14 @@ html {
     gap: 3rem 5rem;
     
   }
+
+  .card {
+    max-width: 380px;
+    max-height: 380px;
+  }
+
+
+
   
  }
  
@@ -876,6 +889,14 @@ html {
   
    }
 
+   .card {
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  .title-wrapper{
+    transform: translateX(-30px);
+  }
   
  }
  
