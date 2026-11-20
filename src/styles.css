@@ -727,7 +727,28 @@ html {
     font-size: 3rem;
   }
 
+  .contactme {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+ 
+  .profilepicture2 {
+    height: 700px;
+    max-height: 100%;
+    width: 50%;
+  }
+
+  .hero3 {
+    min-height: 0;
+  }
   
+  .touch, .address,.phonenumber, .email {
+    font-size: 1.8rem;
+   }
+   
   
  } 
 
@@ -797,7 +818,6 @@ html {
     transform: translateX(-30px);
   }
   
-
  
   
  }
