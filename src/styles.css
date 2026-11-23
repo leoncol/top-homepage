@@ -217,9 +217,9 @@ html {
 
  .title-wrapper{
   width: 100%;
-  max-width: 2290px;
   display: flex;
   transform: translateY(-10px);
+  padding-left: 18.5rem;
   
  }
  
@@ -380,6 +380,7 @@ html {
    height: auto;
    flex-basis: 1500px;
    object-fit: contain;
+   box-shadow: 10px 8px 8px 0 rgba(0, 0, 0, 0.2);
    
  }
  
@@ -408,29 +409,50 @@ html {
  
  
  .cardshape {
-   border-radius: 25px;
-   border: solid 5px #3882F6;
-   width: 200px;
-   height: 200px;
-   background-color: white;
+   width: 100%;
+   height: 70%;
  }
  
+ .cardname {
+  width: 100%;
+  height: 30%;
+  box-shadow: 1px 1px 8px 0px #000000;
+ }
  
  .card {
    display: flex;
    flex-direction: column;
-   border: solid 5px #3882F6;
-   width: 700px;
-   max-width: 900px;
+   width: 600px;
    height: 720px;
-   max-height: 720px;
    text-align: center;
    justify-content: center;
    align-items: center;;
    
  }
+
+ .card1 {
+  background-color: #9e1c1c;
+ }
  
+ .card2 {
+  background-color: #7c75ca;
+ }
+
+ .card3 {
+  background-color: #c363b4;
+ }
+
+ .card4 {
+  background-color:  #d88f39;
+ }
  
+
+ .card5 {
+  background-color:  #7c75ca
+  ;
+
+ }
+
  .cardtext {
    width: 185px;
    font-size: 20px;
@@ -488,6 +510,8 @@ html {
    }
 
    
+
+   
   .profilepicture2 {
     max-width: 100%;
     max-height: 500px;
@@ -517,13 +541,15 @@ html {
 
   .hero {
     background: linear-gradient(
-      139deg,
-      #0b87b8 0%,
-      #0b87b8 33%,
-      transparent 33.2%,
-      transparent 100%
+      140deg,
+      #0891b2 0%,
+      #0891b2 33%,
+      rgba(0, 0, 0, 0.16) 33.1%,
+      rgba(0, 0, 0, 0.04) 34%,
+      transparent 71%
     );
   }
+  
   
 
   .card {
@@ -611,6 +637,7 @@ html {
     max-width: 500px;
     display: flex;
     justify-content: center;
+    padding: 0;
     
    }
 
@@ -668,9 +695,11 @@ html {
   }
 
   .placeholder-icon-container {
-    max-width: 50%;
-    padding-right: 11rem;
-    padding-bottom: 1.3rem;
+    max-width: 100%;
+    padding: 0rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
   }
    
  .devicon-linkedin-plain, .devicon-github-original{
@@ -698,7 +727,7 @@ html {
   
   
   .profilepicture {
-    padding-top: 2rem;
+    margin-top: 2rem;
     max-width: 50%;
     object-fit: fill;
     max-height: 100%;
@@ -738,6 +767,14 @@ html {
     align-items: flex-start;
     min-height: 0vh;
     max-height: 150vh;
+    background: linear-gradient(
+      165deg,
+      #0891b2 0%,
+      #0891b2 57%,
+      rgba(0, 0, 0, 0.16) 57.1%,
+      rgba(0, 0, 0, 0.04) 58%,
+      transparent 71%
+    );
   }
 
   .hero2 {
@@ -755,20 +792,21 @@ html {
   
 
   .card {
-    max-width: 330px;
-    max-height: 330px;
+    max-width: 350px;
+    max-height: 430px;
   }
 
   .card-container {
 
     grid-template-columns: 1fr 1fr;
-    gap: 3rem 2rem;
+    gap: 5rem 3rem;
     max-width: 100%;
   }
   
   .title-wrapper {
-    max-width: 82%;
+    width: 100%;
     padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
   }
 
   .second-title {
@@ -885,10 +923,6 @@ html {
     
   }
 
-  .title-wrapper{
-    transform: translateX(-30px);
-  }
-  
  
   
  }
@@ -919,15 +953,14 @@ html {
     
   }
 
-  .card-container {
-
-    gap: 3rem 5rem;
-    
+   .placeholder-icon-container {
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
   }
+   
 
-  .card {
-    max-width: 380px;
-    max-height: 380px;
+  .title-wrapper {
+    padding-left: 8.5rem;
   }
 
    .contactme {
@@ -953,11 +986,11 @@ html {
    }
 
    .devicon-github-original, .devicon-linkedin-plain{
-    font-size: 3.8rem;
+    font-size: 3.3rem;
    }
 
    .contact-icons {
-    gap: 5rem;
+    gap: 3.8rem;
   }
   
  }
@@ -1007,15 +1040,9 @@ html {
   
    }
 
-   .card {
-    max-width: 350px;
-    max-height: 350px;
+   .title-wrapper {
+    padding-left: 2.2rem;
   }
-
-  .title-wrapper{
-    transform: translateX(-30px);
-  }
-  
 
   .contactme {
     padding-left: 3rem;
